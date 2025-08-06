@@ -1,0 +1,19 @@
+{
+  "name": "WeatherCard App",
+  "description": "A private app that displays real-time weather insights for contacts using a custom CRM card and serverless backend integration.",
+  "uid": "weather_card_app",
+  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/weather-card.json"
+        }
+      ]
+    }
+  },
+  "webhooks": {
+    "file": "./webhooks/webhooks.json"
+  }
+}
