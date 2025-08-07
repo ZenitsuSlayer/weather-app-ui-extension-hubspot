@@ -1,0 +1,17 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Weather Insights",
+    "description": "Get real-time weather updates for any city, right inside your CRM. Personalize your outreach by viewing current conditions and forecasts directly on the contact record.",
+    "uid": "weather_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "WeatherCard.jsx"
+    },
+    "previewImage": {
+      "file": "assets/example-card-preview.png",
+      "altText": "Weather app card UI extension showing city weather details and conditions."
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}
