@@ -1,0 +1,8 @@
+{
+  "appFunctions": {
+    "getWeather": {
+      "file": "getWeather.js",
+      "secrets": ["OPENWEATHER_API_KEY"]
+    }
+  }
+}
